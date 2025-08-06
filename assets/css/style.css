@@ -1,6 +1,6 @@
 /* Global Styles */
 :root {
-    --primary-color: #3498db;
+    --primary-color: #073452;
     --secondary-color: #2c3e50;
     --accent-color: #e74c3c;
     --light-color: #ecf0f1;
@@ -116,10 +116,10 @@ nav {
     height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(15, 76, 126, 0.7), rgba(4, 62, 88, 0.7)), url('../');
+    background: linear-gradient(rgba(190, 196, 201, 0.7), rgba(186, 197, 185, 0.7)), url('../img/medalha.jpg');
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #17171a;
     text-align: center;
     padding: 0 5%;
 }
@@ -152,7 +152,7 @@ nav {
 /* About Section */
 .about {
     padding: 6rem 5%;
-    background: #fff;
+    background: #f6fafa;
 }
 
 .about-container {
@@ -243,7 +243,7 @@ nav {
 }
 
 .certificates img {
-    max-width: 100%;
+    max-width: 45%;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -275,7 +275,7 @@ nav {
 }
 
 .project-card img {
-    width: 100%;
+    width: 46%;
     height: 200px;
     object-fit: cover;
 }
